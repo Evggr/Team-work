@@ -1,0 +1,64 @@
+a {
+	text-decoration: none;
+}
+ul,
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+	margin: 0;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+button {
+	cursor: pointer;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+}
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	align-items: center;
+}
+.navigation {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	margin-right: 433px;
+	margin-left: 80px;
+	font-family: "Homemade Apple", sans-serif;
+}
+.nav-list {
+	display: flex;
+	gap: 31px;
+	margin-right: 375px;
+}
+.nav-item {
+}
+.nav-link {
+	padding: 47px 0;
+	display: block;
+}
+.button {
+	background-color: transparent;
+}
